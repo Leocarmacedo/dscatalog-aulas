@@ -1,5 +1,8 @@
 package com.carnacorp.dscatalog.dto;
 
+import com.carnacorp.dscatalog.services.validation.UserInsertValid;
+
+@UserInsertValid
 public class UserInsertDTO extends UserDTO {
 	private static final long serialVersionUID = 1L;
 
